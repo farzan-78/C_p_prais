@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 border="1" align="center">(:Welcome to Coffee Moon:)</h1>
+    <form id="orderForm">
+        <table border="1" align="center">
+        <tr>
+            <td>
+                ice Coffee=
+                <input type="radio" name="ice cofe">
+                <br/>
+                ice latte=
+                <input type="radio" name="ice latte"
+                <br/>
+                Karamel makiato=
+                <input type="radio" name="Karamel makiato"
+                <br>
+                Afogato=
+                <input type="radio" name="Afogato"
+                <br/>
+                Latte=
+                <input type="radio" name="latte" 
+                <br/>
+        <label for="Additional items">Select Additional items:</label>
+        <select id="Additional items">
+            <option value="ice">ice</option>
+            <option value="Sugar">Sugar</option>
+            <option value="syrup">syrup</option>
+            <option value="cream">cream</option>
+        </select>
+        <br/>
+        <label for="cakes">Select desired cakes</label>
+        <select id="cakes">
+            <option value="cupcake">cupcake</option>
+            <option value="Apple pie">Apple pie</option>
+            <option value="cookie">cookie</option>
+            <option value="Chocolate cake">Chocolate cake</option>
+            <option value="wafer">wafer</option>
+        </select>
+        <button type="submit">Place Order</button>
+        <br/>
+           </td>     
+        </tr>
+    </table>
+    </form>
+   <div id="orders"></div>
+   <script src="script.js"></script>
+
+</body>
+</html>
